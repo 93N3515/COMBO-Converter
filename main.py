@@ -12,5 +12,7 @@ try:
                         continue
                     OutFile.write(split[1]+":"+split[2])
     print("Закончил! Выходной файл - " +zapros+".txt")
+    input()
 except Exception as ex:
     print(Exception)
+    input()
