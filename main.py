@@ -29,4 +29,4 @@ try:
     input()
 except Exception as ex:
     print(ex)
-    input()
+input()
